@@ -144,14 +144,41 @@ with p2:
 
  # Display the plot
  st.pyplot(fig)
- st.markdown("")  
- st.markdown("---") 
- st.markdown("")  
- st.markdown("@ 2024 - Walter Gómez - Fullstack Developer")
+ 
+ #st.markdown("")  
+ #st.markdown("---") 
+ #st.markdown("")  
+ #st.markdown("@ 2024 - Walter Gómez - Fullstack Developer")
+ 
+footer="""<style>
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+.footer {
+position: fixed;
+left: 0;
+height:5%;
+bottom: 0;
+width: 100%;
+background-color: #0e2b3d;
+color: white;
+font: oblique bold 120% cursive;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>@2024- Walter Gomez-fullstack developer <a style='display: block; text-align: center;  text-decoration: none;;' href="https://walter-portfolio-animado.netlify.app/" target="_blank">Portolio</a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
+
 
 # ---- HIDE STREAMLIT STYLE ----
+
 hide_st_style = """
-            <style>
+              <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             header {visibility: hidden;}
