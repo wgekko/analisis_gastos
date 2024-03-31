@@ -169,7 +169,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>@2024- Walter Gomez-fullstack developer <a style='display: block; text-align: center;  text-decoration: none;;' href="https://walter-portfolio-animado.netlify.app/" target="_blank">Portolio</a></p>
+<p><a style='display: block; text-align: center;  text-decoration: none;;' href="https://walter-portfolio-animado.netlify.app/" target="_blank">@2024- Walter Gomez-fullstack developer #Portolio</a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
