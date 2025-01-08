@@ -8,7 +8,6 @@ MarkupSafe
 matplotlib
 numerize
 numpy
-base64
 oauthlib
 openpyxl
 pandas
@@ -22,4 +21,4 @@ streamlit-card
 streamlit-extras
 streamlit-keyup
 streamlit-option-menu
-toml
+
