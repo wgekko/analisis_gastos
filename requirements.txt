@@ -22,4 +22,4 @@ streamlit-card
 streamlit-extras
 streamlit-keyup
 streamlit-option-menu
-toml==
+toml
